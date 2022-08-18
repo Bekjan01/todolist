@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Titan+One&family=Trispace&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/photo_2022-08-08_09-33-26.jpg);
+    background-size: 100%;
+    height: 100%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(213, 200, 19);
+    text-shadow: 2px 2px 4px white;
+}
+/* em-rem = 16px */
+.mainBlock {
+    width: 800px;
+    background: #6468b0;
+    opacity: 0.9;
+    box-shadow: 0 0 30px rgb(119, 116, 116);
+    margin-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.mainBlock div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.textIn{
+    height: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input,button{
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+#addBtn:hover {
+    color: rgb(250, 244, 244);
+    background-color: #89D6AD;
+    
+}
+
+.taskItem {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 24px;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
